@@ -1,0 +1,258 @@
+html {
+	font-size: 62.5%;
+	font-family: "Roboto", sans-serif;
+}
+
+* {
+	font-family: inherit;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+	transition: 0.3s ease-in;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(198, 21, 21);
+}
+
+.navbar {
+	height: 9rem;
+	padding: 1rem 4rem;
+	display: flex;
+	justify-content: center;
+	background-color: #f7f7f7;
+	box-shadow: 0 0.5rem 1rem 2rem rgba(0 0 0 20%);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.logo {
+	height: 100%;
+}
+
+.banner {
+	height: 100vh;
+	width: 100%;
+	background-image: url(./assets/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 20rem;
+}
+
+.banner__content {
+	text-align: center;
+}
+
+.banner__title {
+	font-size: 6rem;
+	color: rgb(245, 245, 245);
+	margin-bottom: 1rem;
+	box-shadow: 0 0.5rem 1rem 2rem rgba(0 0 0 20%);
+}
+
+.banner__desc {
+	font-size: 3rem;
+	color: #f7f7f7;
+}
+
+.banner__author {
+	color: #fff;
+	margin-top: 1rem;
+	font-size: 2.4rem;
+	font-weight: 600;
+}
+
+.banner__arrow {
+	position: absolute;
+	right: 10%;
+}
+
+.segment__container {
+	grid-template-columns: repeat(2, 1fr);
+	display: grid;
+	grid-gap: 3rem;
+	padding: 3rem;
+}
+
+.segment {
+	height: 30rem;
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 1rem;
+}
+
+.segment__text {
+	font-size: 2.6rem;
+	color: black;
+	background: white;
+	text-align: center;
+	margin-bottom: 1rem;
+	padding: 0.2rem 1rem;
+	border-radius: 1rem;
+}
+
+.segment__button {
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	background: black;
+	color: #f7f7f7;
+	border: none;
+	font-size: 2rem;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.segment__title {
+	font-size: 3rem;
+	color: black;
+	text-align: center;
+	margin: 4rem 0;
+}
+
+.segment1 {
+	background-image: url(./assets/segment1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.segment2 {
+	background-image: url(./assets/segment2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.segment3 {
+	background-image: url(./assets/segment3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.segment4 {
+	background-image: url(./assets/segment4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.popup {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	z-index: 9999;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s;
+	backdrop-filter: blur(10px);
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.popup__content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 75%;
+	background-color: #fff;
+	box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	display: table;
+	overflow: hidden;
+	opacity: 0;
+	transform: translate(-50%, -50%) scale(0.25);
+	transition: all 0.5s 0.2s;
+}
+
+.popup__left {
+	width: calc(100% / 3);
+	display: table-cell;
+}
+
+.popup__right {
+	width: calc(100% / 3 * 2);
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5rem 5rem;
+}
+
+.popup__img {
+	display: block;
+	height: 100%;
+	margin-top: auto;
+}
+
+.popup__title {
+	font-size: 3rem;
+	margin-bottom: 4rem;
+}
+
+.popup__text {
+	font-size: 1.6rem;
+	margin-bottom: 4rem;
+}
+
+.popup:target {
+	opacity: 1;
+	visibility: visible;
+}
+
+.popup:target .popup__content {
+	opacity: 1;
+	transform: translate(-50%, -50%) scale(1);
+}
+
+.popup__close:link,
+.popup__close:visited {
+	color: darkgrey;
+	position: absolute;
+	top: 2.5rem;
+	right: 2.5rem;
+	font-size: 3rem;
+	text-decoration: none;
+	display: inline-block;
+	transition: all 0.2s;
+	line-height: 1;
+}
+
+.popup__close:hover {
+	color: red;
+}
+
+.message__banner {
+	height: 30rem;
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./assets/banner2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.message__text {
+	font-size: 2.2rem;
+	color: black;
+	text-align: center;
+}
