@@ -3,6 +3,18 @@ html {
 	font-family: "Roboto", sans-serif;
 }
 
+@media screen and (max-width: 1500px) {
+	html {
+		font-size: 57.25%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 52.5%;
+	}
+}
+
 * {
 	font-family: inherit;
 	box-sizing: border-box;
@@ -41,6 +53,12 @@ html {
 	z-index: 1;
 }
 
+@media screen and (max-width: 1200px) {
+	.navbar {
+		height: 8rem;
+	}
+}
+
 .logo {
 	height: 100%;
 }
@@ -55,6 +73,13 @@ html {
 	align-items: center;
 	justify-content: flex-end;
 	padding-right: 20rem;
+}
+
+@media screen and (max-width: 1200px) {
+	.banner {
+		justify-content: center;
+		padding-right: 0;
+	}
 }
 
 .banner__content {
@@ -92,6 +117,12 @@ html {
 	padding: 3rem;
 }
 
+@media screen and (max-width: 1200px) {
+	.segment__container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
 .segment {
 	height: 30rem;
 	padding: 2rem;
@@ -112,6 +143,18 @@ html {
 	border-radius: 1rem;
 }
 
+@media screen and (max-width: 1200px) {
+	.segment__text {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.segment__text {
+		font-size: 1.8rem;
+	}
+}
+
 .segment__button {
 	padding: 1.2rem 3rem;
 	border-radius: 1rem;
@@ -123,11 +166,35 @@ html {
 	text-decoration: none;
 }
 
+@media screen and (max-width: 1200px) {
+	.segment__text {
+		font-size: 1.8rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.segment__text {
+		font-size: 1.6rem;
+	}
+}
+
 .segment__title {
 	font-size: 3rem;
 	color: black;
 	text-align: center;
 	margin: 4rem 0;
+}
+
+@media screen and (max-width: 1200px) {
+	.segment__title {
+		font-size: 2.6rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.segment__title {
+		font-size: 2.4rem;
+	}
 }
 
 .segment1 {
