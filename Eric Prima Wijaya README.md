@@ -1,6 +1,11 @@
 # Perlawanan Perjajahan 1945
 
-Jelaskan Filosfi website anda yang anda buat, dengan sebaik mungkin.
+JAS MERAH, pinta Bapak Proklamator Indonesia SOEKARNO.
+Dari kata tersebut beliau menyampaikan untuk generasi- generasi selanjutnya bahwa "Jangan Sekali-kali meninggalkan sejarah". Sejarah adalah balok pembangun bangsa Indonesia yang saat ini kita tinggali, balok pembangun yang diperebutkan oleh Pahlawan- pahlawan pendahulu kita keringat, darah bahkan nyawa.
+
+Pada website yang didesign, terdapat linimasa singkat yang dicantumkan dengan informasi mengenai peristiwa- peristiwa penting perjuangan bangsa Indonesia pada tahun 1945 dalam meraih kemerdekaannya. Masing- masing item linimasa ditampilkan dengan gambar untuk memberikan gambaran mengenai peristiwa yang terjadi serta penjelasan singkat.
+
+Pada Ulang Tahun Indonesia yang ke-77 ini, marilah kita kembali mengingat sejenak mengenai sejarah lahirnya bangsa Indonesia melalui peristiwa proklamasi kemerdekaan.
 
 ## Pengumpulan Lomba CuyUniverse
 
