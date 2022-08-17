@@ -7,6 +7,12 @@ Pada website yang didesign, terdapat linimasa singkat yang dicantumkan dengan in
 
 Pada Ulang Tahun Indonesia yang ke-77 ini, marilah kita kembali mengingat sejenak mengenai sejarah lahirnya bangsa Indonesia melalui peristiwa proklamasi kemerdekaan.
 
+\*note:
+Saat ini website belum responsive, oleh karena itu direkomendasi untuk dibuka pada resolusi 1920 x 1080 (tanpa zoom)
+
+Link website:
+https://jas-merah.netlify.app/
+
 ## Pengumpulan Lomba CuyUniverse
 
 | Title                   |     | Description                                            |
